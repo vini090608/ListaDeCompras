@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --backgorund-primary: #F4F5FB;
+    --background-secondary: #FFFFFF;
+
+    --color-brand: #CA3884;
+    --color-brand-hover: #A52C6B;
+    --color-danger: #C93847;
+
+    --content-primary: #080B12;
+    --content-secondary: #374151;
+    --content-tertiary: #9CA3AF;
+    --always-white: #FFFFFF;
+
+    --border-primary: #D1D5DB;
+    --border-hover: #B9C2D0;
+
+    --font-family: "Inter", sans-serif;
+    --title: 700 1.5rem/2 var(--font-family);
+    --label: 600 1rem/1.75 var(--font-family);
+    --paragraph: 500 1rem/1.75 var(--font-family);
+    --link: 500 0.875rem/1 var(--font-family);
+    --input: 400 1rem/1 var(var(--font-family))
+}
+
+body{
+    font-family: var(--font-family);
+}
+
+#flex-1{
+    flex: 2/3;
+}
+
+#flex-2{
+    flex: 1/3;
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickList</title>
+    <link rel="stylesheet" href="/style/index.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="desktop-only"><img src="/assets/logo.svg" alt=""></a>
+    </header>
+    <main>
+        <a href="#"><img src="/assets/" alt=""><- Voltar </a>
+        <h1>Compras da semana</h1>
+
+        <form>
+            <div id="entry">
+                <input type="text" id="info" placeholder="Adicione um novo item">
+                <input type="submit" id="send" value="Adicionar item">
+            </div>
+            <div id="itens">
+                <div id="item">
+                    <div>
+                        <input type="checkbox" name="do">
+                        <label for="do">Pão de forma</label>
+                    </div>
+                    <button>
+                        <img src="/assets/Trash.svg" alt="">
+                    </button>
+                </div>
+                <div id="item">
+                    <div>
+                        <input type="checkbox" name="do">
+                        <label for="do">Café preto</label>
+                    </div>
+                    <button>
+                        <img src="/assets/Trash.svg" alt="">
+                    </button>
+                </div>
+                <div id="item">
+                    <div>
+                        <input type="checkbox" name="do">
+                        <label for="do">Suco de laranja</label>
+                    </div>
+                    <button>
+                        <img src="/assets/Trash.svg" alt="">
+                    </button>
+                </div>
+                <div id="item">
+                    <div>
+                        <input type="checkbox" name="do">
+                        <label for="do">Bolacha</label>
+                    </div>
+                    <button>
+                        <img src="/assets/Trash.svg" alt="">
+                    </button>
+                </div>
+            </div>
+        </form>
+        <footer>
+            <div>
+                <div>
+                    <img src="/assets/warning-circle-filled.svg" alt="">
+                    <label for="">O item foi removido da lista</label>
+                </div>
+                <button>
+                    <img src="/assets/delete-small.svg" alt="">
+                </button>
+            </div>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
